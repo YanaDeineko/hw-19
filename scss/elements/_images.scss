@@ -1,0 +1,22 @@
+.main{
+  &__img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__section-image {
+    margin-bottom: 48px;
+    display: flex;
+    justify-content: center;
+
+    @media screen and (min-width: $tablet-min) {
+      margin-bottom: 67px;
+    }
+
+    &_margin {
+      @media screen and (min-width: $desktop) {
+        margin-bottom: 130px;
+      }
+    }
+  }
+}

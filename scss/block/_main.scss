@@ -1,0 +1,68 @@
+.main {
+  &__banner-h1 {
+    font-size: 34px;
+    line-height: 50px;
+    font-family: $font-secondary;
+    color: $color-black-default;
+    padding-top: 48px;
+    padding-bottom: 52px;
+
+
+    @media screen and (min-width: $desktop) {
+      font-size: 48px;
+      line-height: 64px;
+      padding-bottom: 64px;
+    }
+  }
+
+  &__banner-content {
+    margin-top: 130px;
+    display: inline;
+  }
+
+  &__section-title {
+    font-family: $font-secondary;
+    font-size: $title-font-size;
+    line-height: 38px;
+    font-weight: 400;
+    margin-bottom: 36px;
+    color: $color-black-default;
+
+    &-banner{
+      margin-bottom: 8px;
+      @media screen and (min-width: $desktop){
+        margin-bottom: 40px;
+      }
+    }
+  }
+
+  &__section-text {
+    line-height: 32px;
+    font-width: 400;
+    padding-bottom: 71px;
+
+    @media screen and (min-width: $desktop) {
+      padding-bottom: 153px;
+      font-width: 400;
+    }
+
+    &_padding {
+      @media screen and (min-width: $desktop) {
+        padding-bottom: 40px;
+      }
+    }
+
+    &_large-padding {
+      @media screen and (min-width: $desktop) {
+        padding-bottom: 211px;
+      }
+    }
+  }
+  &__section-content {
+    width: 100%;
+
+    @media screen and (min-width: $desktop) {
+      width: 50%;
+    }
+  }
+}
